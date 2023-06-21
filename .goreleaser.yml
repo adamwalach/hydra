@@ -1,6 +1,6 @@
 includes:
   - from_url:
-      url: https://raw.githubusercontent.com/ory/xgoreleaser/master/build.tmpl.yml
+      url: https://raw.githubusercontent.com/adamwalach/xgoreleaser/test-distroless/build.tmpl.yml
 
 variables:
   brew_name: hydra
@@ -8,6 +8,6 @@ variables:
   buildinfo_hash: "github.com/ory/hydra/v2/driver/config.Commit"
   buildinfo_tag: "github.com/ory/hydra/v2/driver/config.Version"
   buildinfo_date: "github.com/ory/hydra/v2/driver/config.Date"
-  dockerfile: ".docker/Dockerfile-scratch"
+  dockerfile: ".docker/Dockerfile-distroless"
 
 project_name: hydra
